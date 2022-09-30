@@ -1,0 +1,15 @@
+{
+    
+    "login" : {
+        "login" : "Вход",
+        "mail" : "Эл. почта",
+        "password" : "Пароль",
+        "signIn" : "Войти",
+        "doNotHaveAccount" : "Нет профиля?"
+    },
+    "registration" : {
+        "registration" : "Регистрация",
+        "alreadyHaveAccount" : "У вас уже есть аккаунт?",
+        "signUp" : "Регистрация"
+    }
+}

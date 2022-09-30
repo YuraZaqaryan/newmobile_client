@@ -1,0 +1,48 @@
+{
+    "month" : "Month",
+    "cash" : "Cash",
+    "credit" : "Credit",
+    "ram" : "RAM",
+    "memory" : "Memory",
+    "osVersion" : "OS Version",
+    "color" : "Color",
+    "weCooperateWith" : {
+       "part1" : "We coope",
+       "part2" : "rate with"
+    },
+    "yes" : "Yes",
+    "no" : "No",
+    "general" : "General",
+    "name" : "Name",
+    "announcementYear" : "Announcement Year",
+
+    "display" : "Display",
+    "screenType" : "Screen Type",
+    "screenResolution" : "Screen resolution",
+    "screenSize" : "Screen size",
+    
+    "camera" : "Camera",
+    "frontCamera" : "Front camera",
+    "mainCamera" : "Main camera",
+
+    "memoryAndCpu" : "Memory & CPU",
+    "numberOfProcessorCores" : "Number of processor cores",
+    "cpu" : "CPU",
+    "memoryCardSlot" : "Memory card slot",
+    
+    "standartNetwork" : "Standart network",
+    "4GLteNetworkRange" : "4G LTE Network range",
+    "network" : "Network",
+
+    "power" : "Power",
+    "chargerType" : "Charger type",
+    "batteryCapacity" : "Battery capacity",
+
+    "other" : "Other",
+    "weight" : "Weight",
+    "thickness" : "Thickness",
+    "height" : "Height",
+    "width" : "Width",
+    "audio" : "Audio",
+    "simCardQty" : "SIM card quantity"
+}

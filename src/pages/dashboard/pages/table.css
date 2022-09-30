@@ -1,0 +1,82 @@
+.addImageTable{
+    margin-top: 9px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.addImageTable tr th{
+    text-align: center;
+    padding: 22px 0;
+    border-right: 1px solid #0000001a;
+}
+.addImageTable tr td{
+    border: 1px solid #0000001a;
+    text-align: center;
+}
+.main_image>td{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#add{
+    cursor: pointer;
+}
+.deleteImg{
+    cursor: pointer;
+}
+.enter{
+    color: green;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.return{
+    color: green;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.edit{
+    color: goldenrod;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.delete{
+    color: maroon;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nkar{
+    width: 400px;
+}
+#multiUpload>input, #multiUploadShow>input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+   }
+.css-1hpqosy-MuiFormControlLabel-root{
+margin-left: 8px !important;
+margin-right: 8px !important;
+}
+.ram{
+    max-width: 190px;
+}
+/* Color cursor auto */
+.css-j204z7-MuiFormControlLabel-root{
+    cursor: auto !important;
+}
+/* Color span marginLeft */
+.css-ahj2mt-MuiTypography-root{
+    margin-left: 5px !important; 
+}
+.css-1z0d8gp-MuiFormControl-root{
+    margin-top: 0 !important;
+}
+.MuiBox-root .css-0{
+    margin-top: 5px;
+}
+
+.default__type__brand{
+    color: #d32f2f
+}

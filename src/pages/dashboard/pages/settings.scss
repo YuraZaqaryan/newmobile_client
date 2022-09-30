@@ -1,0 +1,58 @@
+.setting{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .setting__item{
+        &.choose__brand{
+            display: flex;
+            margin-top: 35px;
+            justify-content: space-between;
+            flex-direction: column;
+            .setting__type__brand{
+                display: flex;
+                .item__types{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    h4{
+                        border-bottom: 1px solid gray;
+                    }
+                    .item__brands{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        .brands__check{
+                            width: 100px;
+                            .css-1f2kvjf-MuiFormControlLabel-root{
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            span{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .brand__field{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            .uploadImage{
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+.setting__item{ //for disable the button color
+    .button__handle{
+        margin-top: 9px;
+        align-self: flex-end;
+        background-color: #8624db;
+    }
+}

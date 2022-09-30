@@ -1,0 +1,49 @@
+{
+    "month" : "ամիս",
+    "cash" : "Կանխիկ",
+    "credit" : "Ապառիկ",
+    "ram" : "Օպերատիվ հիշողություն",
+    "memory" : "Հիշողություն",
+    "osVersion" : "ՕՀ Տեսակ",
+    "color" : "Գույն",
+    "weCooperateWith" : {
+        "part1" : "Համագոր",
+        "part2" : "ծակցում ենք՝"
+     },
+    "yes" : "Այո",
+    "no" : "Ոչ",
+    "general" : "Ընդհանուր բնութագրեր",
+    "name" : "Անվանում",
+    "announcementYear" : "Հայտարարության տարին",
+
+    "display" : "Էկրան",
+    "screenType" : "Էկրանի տեսակը",
+    "screenResolution" : "Էկրանի Կետայնություն",
+    "screenSize" : "Էկրանի չափսը",
+
+    "camera" : "Տեսախցիկներ",
+    "frontCamera" : "Դիմային տեսախցիկ",
+    "mainCamera" : "Հիմնական տեսախցիկ",
+
+
+    "memoryAndCpu" : "Հիշողություն և Պրոցեսոր",
+    "numberOfProcessorCores" : "Պրոցեսորների միջուկների քանակը",
+    "cpu" : "Պրոցեսոր",
+    "memoryCardSlot" : "Հիշողության քարտի բնիկը",
+    
+    "standartNetwork" : "Ստանդարտ Ցանց",
+    "4GLteNetworkRange" : "4G LTE Ցանցի տիրույթ",
+    "network" : "Ցանց",
+
+    "power" : "Սնուցում",
+    "chargerType" : "Լիցքավորիչի տեսակը",
+    "batteryCapacity" : "Մարտկոցի հզորությունը",
+
+    "other" : "Այլ",
+    "weight" : "Կշիռ",
+    "thickness" : "Հաստություն",
+    "height" : "Երկարություն",
+    "width" : "Լայնությունը",
+    "audio" : "Աուդիո",
+    "simCardQty" : "SIM քարտի քանակ"
+}

@@ -1,0 +1,31 @@
+main{
+    background: rgba(122, 77, 77, 0.1);
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+article {
+    min-height: 58vh !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: var(--white) !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: var(--white) !important;
+}
+.css-nzinn5-MuiContainer-root{
+    color: var(--white) !important;
+}
+.css-1vhaqj4-MuiButtonBase-root-MuiButton-root{
+    background: #edae13 !important;
+}
+
+.css-13i4rnv-MuiGrid-root{
+    font-size: 0.875rem;
+}
+.css-13i4rnv-MuiGrid-root a{
+    text-decoration: underline;
+}

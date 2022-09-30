@@ -1,0 +1,165 @@
+#footer{
+    position: relative;
+    bottom: 0;
+    width: 99%;
+    margin: 0 auto;
+    background-color: #333333eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+    padding-top: 3px;
+}
+#footer>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer>div>ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 0;
+}
+#footer>div>ul>li{
+    color: #b5b5b5a6;
+    font-size: 1em;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-decoration: none;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#footer>li{
+    list-style: none;
+}
+#footer .up .ulf .follotowme{
+    color: var(--white);
+}
+#footer .up .ulf li a{
+    display: inline-block;
+    color: var(--gold);
+    font-size: 1.4em;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-decoration: none;  
+}
+#footer .up .menu_footer li a{
+    color: var(--white);
+    font-size: 0.9em;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.90;
+}
+#footer .up .menu_footer li a:hover{
+    opacity: 1;
+}
+#footer .up .ulf li a:hover, #footer .middle .uld ion-icon:hover{
+    color: var(--gold);
+    transform: translateY(-10px);
+}
+#footer .middle{
+    background: #333;
+    min-height: 116px;
+    justify-content: center;
+    border-radius: 5px;
+    border-bottom: 1px solid #686868;
+}
+#footer .middle .uld{
+    justify-content: space-around !important;
+    width: 100%;
+}
+#footer .middle .uld li span i{
+    font-size: 0.8em;
+}
+#footer .middle .uld li span b{
+    color: var(--white);
+}
+#footer .middle .uld ion-icon{
+    font-size: 2em;
+    vertical-align: middle;
+    transition: 0.25s;
+    float: left;
+    margin-right: 3px;
+    color: var(--white);
+}
+#footer .middle .uld li a{
+    color: var(--gold);
+}
+small{
+    color: var(--white);
+    text-align: center;
+    margin-left: 5px;
+    font-size: 0.6em;
+}
+#footer .down{
+    background: #333;
+    min-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+#footer .down .ul_logo, #footer .down .cards{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#footer .down .cards li{
+    margin-right: 75px;
+}
+#footer .down .ul_logo li:last-child{
+    font-size: 0.8em;
+}
+.logofooter{
+    max-width: 70px;
+}
+@media only screen and (max-width: 1400px){
+    #footer .down .cards li{
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 992px){
+    #footer .middle .uld {
+        flex-direction: column;
+    }
+    #footer .down .cards li{
+        margin-right: 0;
+    }
+    #footer .middle .uld li{
+        text-align: center;
+        margin-top: 19px !important;
+    }
+    .up .ulf{
+        display: none !important;
+    }
+    #footer>.up {
+        justify-content: flex-end;
+    }
+}
+@media only screen and (max-width: 792px){
+    #footer .down {
+        justify-content: center;
+    }
+    #footer .down .cards{
+        display: none;
+    }
+    .down .ul_logo{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 450px){
+    #footer>div>ul>li {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 350px){
+    #footer>div>ul>li {
+        margin: 0;
+    }
+}

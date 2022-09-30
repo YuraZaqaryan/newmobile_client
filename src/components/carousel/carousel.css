@@ -1,0 +1,24 @@
+.carousel .thumbs-wrapper {
+    display: none;
+}
+/* .carousel .slider li div{
+    position: relative;
+}
+.carousel .slider li div img{
+    position: absolute;
+} */
+.carousel .slider li img:nth-child(2){
+    display: none;
+    max-height: 525px;
+}
+.carousel-status{
+    display: none;
+}
+@media screen and (max-width: 560px) {
+    .carousel .slider li img:nth-child(1){
+        display: none;
+    }
+    .carousel .slider li img:nth-child(2){
+        display: block;
+    }
+}

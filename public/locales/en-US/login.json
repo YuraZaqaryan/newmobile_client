@@ -1,0 +1,14 @@
+{
+    "login" : {
+        "login" : "Login",
+        "mail" : "E-mail",
+        "password" : "Password",
+        "signIn" : "Sign in",
+        "doNotHaveAccount" : "Don't have an account?"
+    },
+    "registration" : {
+        "registration" : "Registration",
+        "signUp" : "Sign Up",
+        "alreadyHaveAccount" : "Already have an account?"
+    }
+}

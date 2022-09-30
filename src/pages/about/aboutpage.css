@@ -1,0 +1,127 @@
+.aboutpage__back{
+    width: 100%;
+}
+.aboutpage{
+    width: 80% !important;
+    flex-direction: column;
+    margin: 0 auto !important;
+}
+.aboutpage>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.aboutpage>div>div{
+    background: #333;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%)
+}
+.aboutpage h1{
+    font-size: 50px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+.aboutpage h1 span{
+    color: var(--gold);
+}
+.stores{
+    display: flex !important;
+    height: 660px;
+    width: 100%;
+}
+.stores>div{
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 6px;
+}
+.itemcont p, .itemcont span{
+    color: #fff;
+}
+@media only screen and (min-width: 993px){
+    .stores>div:nth-child(1){
+        width: 35% !important;
+    }
+    .stores>div:nth-child(2){
+        width: 65% !important;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .aboutpage {
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .aboutpage {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 992px){
+    .stores{
+        flex-direction: column;
+        align-items: center;
+    }
+    .stores>.list{
+        height: 180px !important;
+    }
+    .stores>div:nth-child(2){
+        height: 480px !important;
+        width: 95% !important;
+    }
+    .aboutpage h1{
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 670px){
+    .aboutpage h1{
+        font-size: 24px;
+    }
+}
+
+
+
+/* Animate button */
+
+/* .scroll-down {
+    height: 50px;
+    width: 30px;    
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    cursor: pointer;
+  }
+  .scroll-down::before,
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  .scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+  } */

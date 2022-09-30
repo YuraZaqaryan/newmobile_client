@@ -1,0 +1,27 @@
+{
+    "diseases" : "Diseases",
+    "diseaseName" : "Disease name",
+    "symptoms" : "Symptoms",
+    "symptomName" : "Symptom name",
+    "medications" : "Medications",
+    "medicationName" : "Medication name",
+    "fullList" : "Full list",
+    "viewAllNews" : "View All News",
+    "readMore" : "Read More",
+
+    "consultations" : "Consultations",
+    "viewConsultations" : "View Consultations",
+    "doctor" : "Doctor",
+    "doctors" : "Doctors",
+    "viewAllDoctors" : "View All Doctors",
+    "questionToDoctor" : "Question To Doctor",
+    "institutions" : "Institutions",
+    "viewInstitutions" : "View Institutions",
+    "more" : "More",
+    
+    "interviews" : "Interviews",
+    "viewInterviews" : "View Interviews",
+    "blog" : "Blog",
+    "videos" : "Videos",
+    "viewArticles" : "View Articles"
+}

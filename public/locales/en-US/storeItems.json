@@ -1,0 +1,10 @@
+{
+    "amd" : "AMD",
+    "monthly" : "Monthly",
+    "inStock" : "In Stock",
+    "limited" : "Limited",
+    "new" : "New",
+    "cash" : "Cash",
+    "outOfStock" : "Out Of stock",
+    "advance" : "Advance"
+}

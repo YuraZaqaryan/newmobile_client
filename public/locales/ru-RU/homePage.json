@@ -1,0 +1,27 @@
+{
+    "diseases" : "Заболевания",
+    "diseaseName" : "Название заболевания",
+    "symptoms" : "Симптомы",
+    "symptomName" : "Название симптома",
+    "medications" : "Лекарства",
+    "medicationName" : "Название препарата",
+    "fullList" : "Полный список",
+    "viewAllNews" : "Все Новости",
+    "readMore" : "Прочтите больше",
+
+    "consultations" : "Консультации",
+    "viewConsultations" : "Все Консультации",
+    "doctor" : "Врач",
+    "doctors" : "Врачи",
+    "viewAllDoctors" : "Все Врачи",
+    "questionToDoctor" : "Задать вопрос врачу",
+    "institutions" : "Заведения",
+    "viewInstitutions" : "Все заведения",
+    "more" : "Подробности",
+    
+    "interviews" : "Интервью",
+    "viewInterviews" : "Все интервью",
+    "blog" : "Блог",
+    "videos" : "Видео",
+    "viewArticles" : "Все материалы "
+}

@@ -1,0 +1,83 @@
+  //add new Property
+  const addInfo = () => {
+    setObjItem({
+      ...objItem,
+      info: [
+        ...objItem.info,
+        { title: "", description: "", number: Date.now() },
+      ],
+    });
+  };
+
+  const changeInfo = (key, value, number) => {
+    setObjItem({
+      ...objItem,
+      info: objItem.info.map((i) =>
+        i.number === number ? { ...i, [key]: value } : i
+      ),
+    });
+  };
+  const removeInfo = (number) => {
+    setObjItem({
+      ...objItem,
+      info: objItem.info.filter((i) => i.number !== number),
+    });
+  };
+  //add new Property END
+
+  <ColorButton variant="contained" onClick={addInfo}>
+                Add property
+              </ColorButton>
+              {objItem.info.map((i) => (
+                <Box
+                  key={i.number}
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    marginTop: "7px",
+                  }}
+                >
+                  <TextField
+                    id="standard-basic"
+                    label="Enter property name"
+                    variant="standard"
+                    onChange={(e) =>
+                      changeInfo("title", e.target.value, i.number)
+                    }
+                    value={i.title || ""}
+                  />
+
+                  <TextField
+                    id="standard-basic"
+                    label="Enter a description for the property"
+                    variant="standard"
+                    onChange={(e) =>
+                      changeInfo("description", e.target.value, i.number)
+                    }
+                    value={i.description || ""}
+                    sx={{ marginLeft: 5 }}
+                  />
+                  <Button
+                    variant="contained"
+                    onClick={() => removeInfo(i.number)}
+                    sx={{ margin: "12px 0px 0px 19px" }}
+                  >
+                    Delete
+                  </Button>
+                </Box>
+              ))}
+    // formData.append("info", JSON.stringify(sendData.info));
+      // info: characteristicsDevice.info,
+
+
+
+ // if (info) {
+      //   info = JSON.parse(info);
+      //   info.forEach((i) =>
+      //     DeviceDescription.create({
+      //       title: i.title,
+      //       description: i.description,
+      //       deviceId: device.id,
+      //     })
+      //   );
+      // }

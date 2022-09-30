@@ -1,0 +1,27 @@
+{
+    "diseases" : "Հիվանդություններ",
+    "diseaseName" : "Հիվանդության անվանումը",
+    "symptoms" : "Ախտանշաններ",
+    "symptomName" : "Ախտանշանի անվանումը",
+    "medications" : "Դեղորայք",
+    "medicationName" : "Դեղորայքի անվանումը",
+    "fullList" : "Ամբողջ ցանկը",
+    "viewAllNews" : "Բոլոր նորությունները",
+    "readMore" : "Կարդալ ավելին",
+
+    "consultations" : "Կոնսուլտացիաներ",
+    "viewConsultations" : "Բոլոր Կոնսուլտացիաները",
+    "doctor" : "Բժիշկ",
+    "doctors" : "Բժիշկներ",
+    "viewAllDoctors" : "Բոլոր Բժիշկները",
+    "questionToDoctor" : "Հարց Բժշկին",
+    "institutions" : "Հաստատություններ",
+    "viewInstitutions" : "Բոլոր Հաստատությունները",
+    "more" : "Մանրամասն",
+
+    "interviews" : "Հարցազրույցներ",
+    "viewInterviews" : "Բոլոր Հարցազրույցները",
+    "blog" : "Բլոգ",
+    "videos" : "Տեսանյութեր",
+    "viewArticles" : "Բոլոր Նյութերը"
+}

@@ -1,0 +1,14 @@
+{
+    "login" : {
+        "login" : "Մուտք գործել",
+        "mail" : "Էլ. փոստ",
+        "password" : "Գաղտնաբառ",
+        "signIn" : "Մուտք",
+        "doNotHaveAccount" : "Չունե՞ք անձնական էջ"
+    },
+    "registration" : {
+        "registration" : "Գրանցվել",
+        "alreadyHaveAccount" : "Դուք արդեն ունե՞ք անձնական էջ:",
+        "signUp" : "Գրանցվել"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "month" : "месяцев",
+    "cash" : "Наличными",
+    "credit" : "Кредит",
+    "ram" : "Оперативная память",
+    "memory" : "Память",
+    "osVersion" : "Версия ОС",
+    "color" : "Цвет",
+    "weCooperateWith" : {
+        "part1" : "Мы сотру",
+        "part2" : "дничаем с"
+     },
+
+    "yes" : "Да",
+    "no" : "Нет",
+    "name" : "Название",
+    "general" : "Общие характеристики",
+    "announcementYear" : "Год анонсирования",
+
+    "display" : "Экран",
+    "screenType" : "Тип экрана",
+    "screenResolution" : "Разрешение экрана",
+    "screenSize" : "Размер экрана",
+
+    "camera" : "Камера",
+    "frontCamera" : "Передняя камера",
+    "mainCamera" : "Основная камера",
+
+    "memoryAndCpu" : "Память и Процессор",
+    "numberOfProcessorCores" : "Количество ядер процессора",
+    "cpu" : "Процессор",
+    "memoryCardSlot" : "Слот для карты памяти",
+    
+    "standartNetwork" : "Стандарт Сеть",
+    "4GLteNetworkRange" : "4G LTE Диапазон",
+    "network" : "Сеть",
+
+    "power" : "Энергия",
+    "chargerType" : "Тип зарядного устройства",
+    "batteryCapacity" : "Емкость батареи",
+
+    "other" : "Прочее",
+    "weight" : "Вес",
+    "thickness" : "Толщина",
+    "height" : "Высота",
+    "width" : "Ширина",
+    "audio" : "Аудио",
+    "simCardQty" : "Количество SIM-карт"
+}
